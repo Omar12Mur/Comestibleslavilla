@@ -27,3 +27,10 @@ body{
     text-transform: uppercase;
     
 }
+.buscar {
+    max-width: 600px;
+}
+
+.buscar input {
+    padding: 12px;
+}
