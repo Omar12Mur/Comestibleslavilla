@@ -13,24 +13,55 @@ body{
 
 }
 .main-header{
-    padding: 15px 5%;
+    padding: 19px 3%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 30px;
+    gap: 25px;
 }
 
 .logo h1{
-    font-weight: 700;
+    font-weight: 800;
     color: #3d2b2b;
-    font-size: 1.5rem;
+    font-size: 1.9rem;
     text-transform: uppercase;
-    
-}
-.buscar {
-    max-width: 600px;
+    padding: 30px;
+
 }
 
-.buscar input {
-    padding: 12px;
+.Buscar .form-control:focus {
+    box-shadow: none;
+    background-color: #fff;
+    
+}
+
+.Buscar .btn-danger{
+    font-size: 1.5rem;
+}
+
+
+.form-control{
+    max-width: 75%;
+    padding: 10px;
+    font-size: 19px;
+    text-align: center;
+    
+}
+
+.header-actions{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5px;
+    width: 100%;
+    max-width: 250px;
+    
+}
+
+.action-item{ 
+    font-weight: 900;
+    letter-spacing: 1px;
+    text-decoration: none;
+    color: #3d2b2b;
+    font-size: 1.6rem;
 }
