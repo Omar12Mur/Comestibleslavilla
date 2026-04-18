@@ -53,6 +53,7 @@ body{
     gap: 5px;
     width: 100%;
     max-width: 250px;
+
     
 }
 
@@ -62,6 +63,12 @@ body{
     text-decoration: none;
     color: #3d2b2b;
     font-size: 1.6rem;
+    transition: transform 0,3 ease, color   0,3 ease;
+}
+
+.action-item:hover{
+    transform: translateY(-4px);
+    color: #3d2b2b;
 }
 
 .nav-bar{
@@ -79,5 +86,19 @@ body{
     font-weight: 800;
     text-decoration: none;
     color: #3d2b2b90;
+    display: inline-block;
+    transition: tranform 0,3 ease, color 0,3s ease;
+}
+.nav-item:hover{
+    color: #3d2b2b;
+    transform: translateY(-5px);
+}
 
+@media (max-width: 756px){
+    .main-header{
+        flex-direction: column;
+        gap: 10px;
+        padding: 20px;
+        text-align: center;
+    }
 }
