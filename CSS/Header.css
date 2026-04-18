@@ -93,3 +93,12 @@ body{
     color: #3d2b2b;
     transform: translateY(-5px);
 }
+
+@media (max-width: 756px){
+    .main-header{
+        flex-direction: column;
+        gap: 10px;
+        padding: 20px;
+        text-align: center;
+    }
+}
